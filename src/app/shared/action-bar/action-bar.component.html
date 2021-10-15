@@ -1,0 +1,15 @@
+<div class="action-bar" [class.action-bar-expanded]="expanded">
+
+	<!-- Menu Button -->
+	<!-- <button class="action-bar-item shadow-sm" (click)="expanded = !expanded">
+		<span class="action-bar-item-icon jam jam-bar-chart transform-rotate-90"></span>
+    <span class="action-bar-item-text">Menu</span>
+	</button> -->
+
+  <app-action-bar-item [shadow]="true" (click)="expanded = !expanded">
+    <span class="action-bar-item-icon jam jam-bar-chart transform-rotate-90"></span>
+    <span class="action-bar-item-text">Menu</span>
+  </app-action-bar-item>
+
+	<ng-content></ng-content>
+</div>

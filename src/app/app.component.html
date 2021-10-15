@@ -1,0 +1,185 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">CCP</a>
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbarNavAltMarkup"
+    aria-controls="navbarNavAltMarkup"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active" href="#"
+        >CCP File Uploader <span class="sr-only">(current)</span></a
+      >
+      <a class="nav-item nav-link" href="#">HELP</a>
+      <a
+        class="navbar-brand nav-link"
+        href="#"
+        style="position:absolute;right:20px"
+        >Welcome Roberts,Brian</a
+      >
+    </div>
+  </div>
+</nav>
+
+<ul class="nav nav-tabs" style="padding-top:50px">
+  <li class="nav-item" style="padding-left:20px">
+    <a
+      class="nav-link active"
+      href="#"
+      style="color:white;background-color:#4287f5"
+      >REQUEST DETAILS</a
+    >
+  </li>
+  <li class="nav-item" style="padding-left:20px">
+    <a class="nav-link" style="color:black" href="#">UPLOAD/DOWNLOAD FILES</a>
+  </li>
+</ul>
+
+<div class="report-area" style="padding:20px">
+  <div class="card">
+    <div class="card-header">
+      <span>CCP Request Details</span>
+      <span style="position:absolute;right:50px;top:5px"
+        ><button type="button" class="btn btn-secondary">
+          Click here to Download the Upload template
+        </button></span
+      >
+    </div>
+    <div class="card-body">
+      <div class="row">
+        <div class="col-6">
+          <div class="row" style="padding: 5px 10px 5px 10px">
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon3">Request ID:</span>
+              </div>
+              <input type="text" class="form-control" Value="abcd-efpg-hijk-lmno-pqrs-12345" id="basic-url" aria-describedby="basic-addon3">
+            </div>
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon3">System Name</span>
+              </div>
+              <input class="form-control" type="text" placeholder="" readonly>
+            </div>
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon3">Info Expected</span>
+              </div>
+              <input class="form-control" type="text" placeholder="" readonly>
+            </div>
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon3">Date Provided</span>
+              </div>
+              <input class="form-control" type="text" placeholder="" readonly>
+            </div>
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon3">Eloc</span>
+              </div>
+              <input class="form-control" type="text" placeholder="" readonly>
+            </div>
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon3">Customer Identifiers</span>
+              </div>
+              <input class="form-control" type="text" placeholder="" readonly>
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="row" style="padding: 59px 10px 5px 10px">
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon3">Request Type</span>
+              </div>
+              <input class="form-control" type="text" placeholder="" readonly>
+            </div>
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon3">Request Start Date</span>
+              </div>
+              <input class="form-control" type="text" placeholder="" readonly>
+            </div>
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon3">Jira Ticket ID: </span>
+              </div>
+              <input class="form-control" type="text" placeholder="" readonly>
+            </div>
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon3">User Type</span>
+              </div>
+              <input class="form-control" type="text" placeholder="" readonly>
+            </div>
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon3">Delete Range</span>
+              </div>
+              <input class="form-control" type="text" placeholder="" readonly>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row" style="padding-top:30px">
+        <h5 style="padding:10px">Customer Identifiers</h5>
+        <table class="table" style="padding:0px 20px 0px 20px">
+            <thead style="background-color:#e6e6e6">
+              <tr>
+                <th scope="col">email</th>
+                <th scope="col">last_name</th>
+                <th scope="col">first_name</th>
+                <th scope="col">address</th>
+                <th scope="col">cust_guid</th>
+                <th scope="col">telephone_number</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">bplatco_091321@yopmail.com</th>
+                <td>Test</td>
+                <td>Platco</td>
+                <td>14224</td>
+                <td>BOK1211553125131GPPPP</td>
+                <td></td>
+              </tr>
+            </tbody>
+        </table>
+      </div>
+      <div class="row" style="padding-top:30px">
+        <h5 style="padding:10px">Categories and PI Elements</h5>
+      </div>
+      <div class="row">
+        <table class="table" style="width:50%">
+          <thead style="background-color:#e6e6e6">
+            <tr>
+              <th scope="col">Category Name</th>
+              <th scope="col">Pi Element</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">service_activity_information</th>
+              <td>telemetry_other</td>
+            </tr>
+            <tr>
+              <th scope="row">service_activity_information</th>
+              <td>Streaming Logs</td>
+            </tr>
+            <tr>
+              <th scope="row">service_activity_information</th>
+              <td>Serial _num</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
